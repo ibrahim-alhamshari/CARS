@@ -18,7 +18,21 @@ if (Q >= 2 ) {
 
 document.write('<h4>' + UserName + '</h4>');
 */
+var pass = '60';
+function gradePer(){
+var yourgrade = prompt('Enter your degree in the exam !');
+if (yourgrade>= pass){
+  console.log(yourgrade)
+  alert('Congrajulation, you are passed the exam .')
+}else if (yourgrade< pass){
+  console.log(yourgrade)
+ alert('Unfortuanetly, you did not pass the exam .')
+}else {
+  alert('welcome to the website')
+}}
+gradePer();
 
+/*
 var UserName = prompt('Enter your name !');
 
 var carNum = prompt('How many cars do you have ?', '1, 2, 3 ');
@@ -48,6 +62,4 @@ if  (carType == 'Diesel')
  }else {
     document.write('<img src= "https://namastecar.com/wp-content/uploads/2020/06/2021-BMW-7-Series-new-straight-six-cylinder-diesel-17.jpg"></img>');
 } }
-
-
-
+*/

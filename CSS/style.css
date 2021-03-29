@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(164, 219, 164);
+}
+
+header {
+    background-color: rgba(140, 148, 142, 0.849);
+    height: 55px;
+    width : 75% ;
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 70px;
+ 
+}
+
+header ul {
+display: -webkit-box;
+    margin: 50px 20 5 2%;
+    margin-left: 700px;
+    color: rgb(19, 24, 14);
+   text-indent: 40px;
+   list-style-type: none;
+   block-size: auto;
+}
+
+main p {
+    background-color: rgba(146, 119, 245, 0.849);
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+main .content {
+    background-color: rgba(22, 24, 23, 0.849);
+    display: inline;
+    text-align: center;
+    margin-left: 350px;
+    margin-bottom: 600px;
+}
+
+footer p{
+    text-align: center;
+
+}
